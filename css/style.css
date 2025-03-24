@@ -1,0 +1,1143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	overflow-x: hidden;
+	
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../fonts/HussarBd.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: url('../img/Potreando - Backdrop (Horizontal).jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+	display: flex;
+    align-items: center;
+	justify-content: flex-start; 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+	justify-content: space-between;
+}
+
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'MiFuente', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#welcome{
+	background-image: url("../img/Cover Intro Large.jpeg");
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 100px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.60);
+	background-position: center;
+	margin-bottom: 100px;
+}
+#welcome h1{
+	color:#FFFFFF;
+	font-family: "Montserrat Black";
+	padding-top: 120px;
+	font-size: 56px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#welcome p{
+	color:#FFFFFF;
+	font-family: "Montserrat Light";
+	font-size: 28px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+#hero{
+	text-align: center;
+	padding: 20px 0px 10px;
+}
+
+#hero h2{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#hero h3{
+	font-size: 24px;
+	font-weight: 100;
+	font-family: "Montserrat ExtraBold";
+}
+
+#hero p{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Montserrat Light";
+}
+#fifeando{
+ 	background-image: url("../img/fifeando.png");
+	padding-bottom: 550px;
+	padding-top: 300px;
+}
+
+.content-fifeando{
+	padding: 200px;
+}
+
+#fifeando p{
+	color: #FFFFFF;
+	font-size: 24px;
+	padding-top: 20px;
+	font-weight: 100;
+	font-family: "Montserrat Light";
+}
+
+.logo-fifeando{
+	width:700px;
+	padding-top: 100px;
+}
+#fifeando h3{
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: "Montserrat Black";
+}
+
+.btn-fifeando{
+	margin-left: 200px;
+}
+
+#fifeando .btn-primary{
+margin-right: 570px;
+}
+
+
+
+#entrevistas{
+	background-image: url("../img/entrevistas backdrop.png");
+	background-size: cover;
+	background-position: center;
+	marging-bottom: 350px;
+	margin-top: 350px;
+	
+}
+
+.btn-primary{
+	background-image: url("../img/Potreando - Backdrop (Horizontal).jpg");
+	padding: 15px 100px;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size: 26px;
+	border-radius: 0px;
+    border: 0px;
+	margin-top: 20px;
+}
+
+#crew{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#crew h2{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#crew h4{
+	color:#0baf2b;
+	font-family: "Montserrat light";
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0px 5px;
+}
+
+.el-crew {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.el-crew h2 {
+    font-family: 'FuenteColaboraciones', sans-serif;
+    color: #2a8c29;
+    font-size: 48px; 
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family: 'FuenteP';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.el-crew p {
+    font-family: 'FuenteP', sans-serif;
+    font-size: 20px; 
+    max-width: 800px;
+    margin: 0 auto;
+	padding-top: 50px;
+    line-height: 1.5;
+	
+}
+
+.hosts h1 {
+    color: #2a8c29;
+    margin-bottom: 10px;
+	text-align: justify;
+}
+
+.hosts h2 {
+    color: #2a8c29;
+    margin-bottom: 10px;
+	font-weight: 200;
+	text-align: justify;
+}
+.hosts p{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hosts ul{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+@font-face {
+    font-family: 'FuenteColaboraciones';
+    src: url('../fonts/Montserrat-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.colaboraciones {
+    padding: 60px 20px;
+    text-align: center;
+	margin-bottom: 0px;
+}
+
+
+.colaboraciones h2 {
+    font-family: 'FuenteColaboraciones', sans-serif;
+    color: #2a8c29;
+    font-size: 70px; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.colaboraciones h2::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 3px;
+    background: rgba(128, 128, 128, 0.3); 
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: 'FuenteP';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.colaboraciones p {
+    font-family: 'FuenteP', sans-serif;
+    font-size: 25px; 
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+	margin-bottom: 0px;
+}
+
+
+.imagenes-colaboraciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.imagenes-colaboraciones img {
+    width: 120%; 
+    max-width: 1300px; 
+    height: auto;
+	margin-top: 0px;
+    
+}
+
+/*Marcas */
+.marcas {
+    color: #2a8c29;
+    padding: 40px 20px;
+	margin-top: 0px;
+}
+
+.marcas h3 {
+    color: #2a8c29;
+    font-size: 42px;
+	margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.contenedor-marcas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contenedor-marcas img {
+    height: 250px;
+}
+
+.navbar {
+    background: url('Potreando - Backdrop (Horizontal).jpg') no-repeat center center;
+    background-size: cover;
+    padding: 15px 20px;
+    text-align: center;
+	color: #fff;
+}
+
+.title {
+    font-family: 'Hussar Bold', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration:underline;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+        @font-face {
+            font-family: 'Hussar Bold';
+            src: url('HussarBold.otf') format('opentype');
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar-title {
+            font-family: 'Hussar Bold', sans-serif;
+            font-size: 28px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+#contacto-bg{
+	background-image: url("../img/contacto-banner.jpeg");
+	background-size: cover;
+	padding: 200px 200px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.80);
+	background-position: center;
+}
+
+#contacto-bg h1{
+	color:#fff;
+	margin-bottom: 200px;
+	font-size: 54px;
+}
+
+.cta-box{
+	background-color:#029a20;
+	padding: 6% 40px;
+	border-radius: 10px;
+	margin-top: -25%;
+}
+
+#contacto h4{
+	color: #fff;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#contacto p{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#formulario{
+	padding-top: 80px;
+}
+
+.btn{
+	background-color: #029a20;
+	color: #fff;
+}
+
+footer{
+	margin-top: 100px;
+	background-color: #101010;
+	padding-bottom: 8px;
+	padding-top: 10px;
+	color: #fff;
+}
+footer p{
+	text-align: center;
+}
+
+
+#nuestras-plataformas{
+	margin-top: 100px;
+}
+
+#nuestras-plataformas h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 46px;
+	text-align: center;
+}
+
+.youtube-facebook{
+	margin-top: 150px;
+	margin-bottom: -150px;
+}
+
+.youtube-facebook h2{
+	font-size: 40px; 
+	font-weight: 700;
+}
+
+.youtube-facebook h3{
+	font-size: 30px; 
+	font-weight: 400;
+}
+
+.youtube-facebook li{
+	padding-top: 10px;
+	margin-top: 0px;
+	font-weight: 600;
+}
+
+.pegar{
+	margin-top: -80px;
+}
+
+.centrar{
+	margin-top: 80px;
+}
+
+.tiktok-instagram{
+	margin-top: 100px;
+	margin-bottom: -100px;
+}
+
+.tiktok-instagram h2{
+	font-size: 40px; 
+	font-weight: 700;
+}
+
+.tiktok-instagram h3{
+	font-size: 30px; 
+	font-weight: 400;
+}
+
+.tiktok-instagram li{
+	padding-top: 10px;
+	margin-top: 0px;
+	font-weight: 600;
+}
+
+#temporada-3-bg{
+	background-image:url("../img/temporada-3.jpeg");
+	background-size: cover;
+	padding: 100px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.80);
+	background-position: center;
+}
+
+#temporada-3-bg h1{
+	color:#fff;
+	font-size: 54px;
+}
+
+.nuevos-episodios h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 44px;
+	text-align: center;
+}
+
+.nuevos-episodios h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 34px;
+	text-align: center;
+}
+
+.nuevos-episodios{
+	margin-top: 100px;
+}
+
+.nuevos-episodios p {
+    font-size: 16px; 
+    max-width: 800px;
+    margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.nuevos-episodios hr{
+	max-width: 800px;
+}
+
+.nuevo-set h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nuevo-set{
+	margin-top: 80px;
+}
+
+.nuevo-set p {
+    font-size: 16px; 
+    max-width: 600px;
+    margin: 0 auto;
+	margin-top: 30px;
+}
+
+.nuevas-secciones h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nuevas-secciones{
+	margin-top: 40px;
+}
+
+
+
+#fifeando-logo p{
+	color: #fff;
+	font-size: 25px;
+	padding-top: 30px;
+	text-align: center;
+	
+}
+
+.champs{
+	padding-bottom: 200px;
+	padding-top: 200px;
+	
+	
+}
+
+.champs p {
+	color: #fff;
+	text-align: center;
+	padding-right: 100px;
+	font-size: 15px;
+	
+	
+}
+
+.champs h2{
+	color: #fff;
+	font-size: 50px;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	text-align: center;
+	padding-right: 100px;
+}
+
+.fifeando-bg{
+	background-image: url("../img/fifeando-background.jpeg")
+}
+
+.ultimo-vid h2{
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+.cdls h1{
+	color: #fff;
+	text-align: center;
+	padding-top: 250px;
+	
+	
+}
+
+.doumbia h2{
+	color: #fff;
+	text-align:center;
+	padding-top: 40px;
+	
+}
+
+.doumbia h3{
+	color: #D067E0;
+	text-align: center;
+	
+}
+
+.doumbia p{
+	color: #fff;
+	font-size: 15px;
+	padding-top: 20px;
+}
+	
+#fifeando li{
+	color: #FFFFFF;
+
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.coins {
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.pros, .cons {
+	font-weight: 100;
+    width: 50%;
+    text-align: left; 
+	padding-left: 100px;
+	padding-top: 40px;
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.pro-clubs h1{
+	color: #fff;
+	padding-top: 200px;
+	
+}
+
+.pro-clubs h2{
+	color: #fff;
+	padding-top: 50px;
+	font-weight: 100;
+	padding-bottom: 50px;
+	
+}
+
+.pro-clubs p{
+	color: #fff;
+	padding-bottom: 100px;
+	
+}
+
+.pro-clubs a{
+	margin-bottom: 100px;
+	
+}
+
+hr{
+	background-color: white;
+	margin-top: 20px;
+	width: 50%;
+}
+
+#entrevistas-bg{
+	background-image: url("../img/entrevistas-bg.jpeg");
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.60);
+	background-position: center;
+}
+
+#episodios{
+	margin-top: 70px;
+	text-align: center;
+}
+
+#episodios h2{
+	margin-top: 50px;
+	font-family: 'MiFuente', sans-serif;
+	margin-bottom: 50px;
+}
+
+.entrevistas-info{
+	margin-top: 100px;
+	text-align: left;
+}
+
+.entrevistas-info h1{
+	text-align: left;
+}
+
+.entrevistas-info p{
+	font-size: 20px;
+	max-width: 750px;
+}
+
+.album{
+	margin-top: 100px;
+}
+
+#entrevistas{
+	background-image: url("../img/entrevistas backdrop Medium.png");
+	padding-bottom: 200px;
+	padding-top: 200px;
+}
+
+#entrevistas p{
+	font-size: 28px;
+	font-weight: 200;
+	color: #fff;
+	margin-top: -70px;
+}
+
+#entrevistas h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 70px;
+}
+
+.subir{
+	margin-top: -100px;
+}
+
+.btn-light{
+	padding: 20px 150px;
+	color: #D00003;
+	text-transform:uppercase;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+#el-cuadro{
+	padding-top: 100px;
+}
+#el-cuadro h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#el-cuadro h3{
+	color:#0baf2b;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 600;
+}
+
+#el-cuadro i{
+	font-size: 30px;
+	color:#0baf2b;
+}
+
+#el-cuadro p{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Montserrat Light";
+	margin-bottom: 70px;
+}
+
+.btn-el-cuadro{
+	margin-top: 70px;
+}
+
+#merch-bg {
+    position: relative;
+	padding: 170px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#merch-bg h1{
+	color:#fff;
+	font-size: 54px;
+}
+
+#merch-bg h2{
+	color:#fff;
+	font-family: 'MiFuente';
+	font-size: 150px;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+	filter: brightness(20%);
+    z-index: -1;
+}
+
+#merch-bg p{
+	color: #fff;
+	font-size: 22px;
+}
+
+#como-ordernar h3{
+	color:#0baf2b;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 600;
+}
+
+#como-ordernar h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#como-ordernar{
+	margin-top: 100px;
+}
+
+#merchy h3{
+	color:#0baf2b;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 600;
+}
+
+#merchy h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#merchy{
+	margin-top: 100px;
+	align-content: center;
+}
+
+#merchy p{
+	font-weight: 300;
+}
+
+#mapita{
+	padding-top: 100px;
+
+}
+
+.ElCuadro {
+    position: relative;
+    background-image: url('../img/el-cuadro-bg.jpeg'); 
+    background-size: cover;
+    background-position: center top 30%;
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ElCuadro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ElCuadro h2 {
+    color: white;
+    font-size: 100px; 
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: 'FuenteP';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+.Titulo {
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.Titulo h2 {
+    font-family: 'MiFuente', sans-serif;
+    font-size: 64px;
+	font-weight: bold; 
+    text-align: center;
+	color: #28a745;
+	margin-top: 1000px; 
+    margin: 0;
+    padding-bottom: 20px;
+	display: inline-block;
+    border-bottom: 3px solid #ccc;
+}
+
+.Noticia {
+    background-color: #f5f5f5; 
+    padding: 30px; 
+    margin-top: 50px; 
+    max-width: 1300px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+	text-align: center; 
+}
+
+.Noticia h2 {
+    font-size: 36px; 
+	max-width: 1050px; 
+    font-weight: normal; 
+    margin-bottom: 20px;
+
+}
+
+.Noticia h2 strong {
+    font-weight: bold; 
+}
+
+.Noticia .imagen1, .Noticia .imagen2 {
+    margin: 20px 0; 
+	max-width: 100%;
+}
+
+.Noticia img {
+    width: 200%; 
+    max-width: 800px; 
+    height: auto; 
+    margin-bottom: 0px; 
+}
+
+.Noticia p {
+    font-size: 22px; 
+    line-height: 1.6; 
+    margin: 15px 0;
+	max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto; 
+	text-align: left; 
+}
+
+.Noticia .texto1, .Noticia .texto2 {
+    font-size: 22px;
+}
+
+.Noticia .texto3, .Noticia .texto4 {
+    font-size: 18px; 
+}
+
+.Noticia strong {
+    font-weight: bold; 
+}
+
+
+.imagen2 p {
+    font-size: 22px; 
+    margin-top: 10px;
+	text-align: center;
+}
+
+
+.imagen1 p {
+    font-size: 22px; 
+    margin-top: 10px;
+	text-align: center;
+}
+
+.lista-equipos {
+    list-style-type: disc; 
+    margin-top: 40px;
+    padding: 0; 
+    max-width: 550px; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: left;
+}
+
+.lista-equipos li {
+    font-size: 22px; 
+    margin: 5px 0; 
+    list-style-position: inside; 
+}
+
+@media (max-width: 768px) {
+    .lista-equipos {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+.Discord {
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.Discord h2 {
+    font-family: 'MiFuente', sans-serif;
+    font-size: 64px;
+	font-weight: bold; 
+    text-align: center;
+	margin-top: 1000px; 
+    margin: 0;
+    padding-bottom: 20px;
+	display: inline-block;
+    border-bottom: 3px solid #ccc;
+	width: 60%;
+}
+
+.Discord p {
+    font-size: 22px; 
+    line-height: 1.6; 
+    margin: 15px 0;
+	max-width: 850px; 
+    margin-left: auto;
+    margin-right: auto; 
+	
+}
+
+.Discord img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    margin-bottom: 0px; 
+}
+
+.boton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.boton-discord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: 90px; 
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-image: url('../img/Potreando - Backdrop (Horizontal).jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-discord:hover {
+	color:#FFFFFF;
+    transform: scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
